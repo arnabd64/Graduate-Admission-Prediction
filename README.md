@@ -36,6 +36,12 @@ Columns 1 through 7 are the predictors or features of our model and Column 8 is 
 > [!TIP]
 > You can change the datatypes of the features to reduce your memory footprint while developing the model.
 
+## Notebooks
+
+|    Notebook                          |    Description                    |
+| ------------------------------------ | --------------------------------- |
+| [scikit-learn](./scikit-learn.ipynb) | Using only `scikit-learn` package |
+
 ## Setup Environment
 
 I have used __Python 3.11__ on a Ubuntu 22.04 machine.

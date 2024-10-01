@@ -18,6 +18,24 @@ Kaggle Dataset Card: [Kaggle](https://www.kaggle.com/datasets/mohansacharya/grad
 
 3. _(Optional)_ Rename the dataset to something simple like `dataset.csv`
 
+## About the Dataset
+
+The CSV file contains 500 rows columns with 9 columns. First column is the Serial Number of the application so we can discard it. The remaining 8 columns are as follows:
+
+1. _GRE Score_ (out of 340)
+2. _TOEFL Score_ (out of 120)
+3. _University Rating_ (out of 5)
+4. _Statement of Puropose Rating_ (out of 5)
+5. _Letter of Recommendation Rating_ (out of 5)
+6. _GPA Score_ (out of 10)
+7. _Research Experience_ (0 for `No` and 1 for `Yes`)
+8. _Chance of Admit_ (a decimal value between 0 and 1)
+
+Columns 1 through 7 are the predictors or features of our model and Column 8 is our target variable.
+
+> [!TIP]
+> You can change the datatypes of the features to reduce your memory footprint while developing the model.
+
 ## Setup Environment
 
 I have used __Python 3.11__ on a Ubuntu 22.04 machine.
@@ -50,7 +68,7 @@ source .venv/bin/activate   # virtualenv on GNU/Linux or MacOS
 
 ### Method 2: Using Google Colab or Kaggle
 
-Create a cell, and add the following command:
+At the beginning of the notebook, add the following command in a new cell and execute it:
 ```jupyter
 !pip install scikit-learn seaborn
 ```
@@ -59,7 +77,6 @@ Create a cell, and add the following command:
 
 > [!IMPORTANT]
 > This method requires the following prerequisites:
-
 > * __Docker__ installed on your local machine.
 > * Extensions: __GitHub__ and __Dev Containers__ installed on your Visual Studio Code.
 > * Your Visual Studio Code installation being connected with your Github account for seamless git pull/push operations.

@@ -19,6 +19,7 @@ decorator==5.1.1
 defusedxml==0.7.1
 executing==2.1.0
 fastjsonschema==2.20.0
+flaml==2.3.1
 fonttools==4.54.1
 fqdn==1.5.1
 h11==0.14.0
@@ -45,6 +46,7 @@ jupyterlab==4.2.5
 jupyterlab-pygments==0.3.0
 jupyterlab-server==2.27.3
 kiwisolver==1.4.7
+lightgbm==4.5.0
 markupsafe==2.1.5
 matplotlib==3.9.2
 matplotlib-inline==0.1.7
@@ -55,6 +57,7 @@ nbformat==5.10.4
 nest-asyncio==1.6.0
 notebook-shim==0.2.4
 numpy==2.1.1
+nvidia-nccl-cu12==2.23.4
 overrides==7.7.0
 packaging==24.1
 pandas==2.2.3
@@ -104,3 +107,4 @@ wcwidth==0.2.13
 webcolors==24.8.0
 webencodings==0.5.1
 websocket-client==1.8.0
+xgboost==2.1.1

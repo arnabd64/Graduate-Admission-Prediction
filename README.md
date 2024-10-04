@@ -40,7 +40,8 @@ Columns 1 through 7 are the predictors or features of our model and Column 8 is 
 
 |    Notebook                          |    Description                    |
 | ------------------------------------ | --------------------------------- |
-| [scikit-learn](./scikit-learn.ipynb) | Using only `scikit-learn` package |
+| [scikit-learn](./scikit-learn.ipynb) | Using only [scikit-learn](https://scikit-learn.org/stable/index.html) package |
+| [flaml](./flaml.ipynb)               | Using [FLAML](https://microsoft.github.io/FLAML/docs/Use-Cases/Task-Oriented-AutoML) library |   
 
 ## Setup Environment
 
